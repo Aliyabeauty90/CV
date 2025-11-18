@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Inter, Arial, sans-serif; 
+    font-size: 16px;
+    line-height: 1,45;
+}
+
+body {
+    background-image:
+    url("img2/PSX_20251114_085514.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #2f2f2f;
+}
+
+
+.thin-box {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 8px 0;
+    background-color: #fbe9e4dc;
+    border-radius: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem; 
+}
+   
+.navbar a {
+    color: #7e93ab;
+    text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+transition: color 0.3s;
+}
+.navbar a :hover {
+    color: #00ff00;
+}
+.container {
+   display: flex;
+  align-items: flex-start;
+
+}
+
+
+.left-block {
+flex: 0 0 40%;
+display: flex;
+flex-direction: column;
+background-color: #f9f1ec;
+padding: 90px 40px 70px 40px;
+margin-top: 20px;
+margin-left: 5%;
+}
+
+
+
+    
+.right-block {
+flex: 0 0 45%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 40px 40px 40px;
+margin-top: 20px;
+margin-right: 5%;
+margin-left: auto;
+flex-direction: column;
+background-color: #fbe9e4;
+border-radius: 10px;
+
+
+
+}
+
+
+
+   
+
+.photo-block {
+    display: flex;
+    overflow: hidden;
+    padding: 20px;
+    
+    justify-content: center;
+    align-items: center;
+   
+}
+.photo-block img {
+    display: block;
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    
+    border-radius: 20px;
+    
+}
+.services {
+    display: flex;
+flex-direction: column;
+padding-top: 20px;
+
+}
+.services {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 20px;
+
+
+}
+.shape {
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    padding: 10px;
+    width: 23vw;
+    height: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+

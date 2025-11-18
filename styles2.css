@@ -11,7 +11,7 @@ html {
 
 body {
     background-image:
-    url("img2/PSX_20251114_085514.jpg");
+    url("PSX_20251114_085514.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -131,5 +131,6 @@ margin-top: 20px;
     align-items: center;
     text-align: center;
 }
+
 
 

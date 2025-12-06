@@ -18,6 +18,20 @@ body {
     min-height: 100vh;
    width: 100%;
    color: #333333;
+    font-family: 'Shift', Arial, Helvetica, sans-serif;
+line-height: 1,45;
+font-size: clamp(1rem, 2,2vw, 1,25rem);
+}
+h1 {
+    font-family: 'Shift', Arial, Helvetica, sans-serif;
+line-height: 1,4;
+font-size: clamp(2rem, 6vw, 6rem);
+}
+h3 {
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+ span {
+font-size: clamp(1rem, 2vw, 2rem);
 }
 
 
@@ -73,47 +87,54 @@ padding: 0 4%;
 
 .left-block {
 flex: 1;
-
+align-items: center;
 display: flex;
 flex-direction: column;
 background-color: #fbe9e4;
 padding: 20px 5px 5px 5px;
 margin-top: 60px;
 margin-left: 1%;
-min-width: 150px;
 gap: 3px;
 }
 
 .left-block h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-family: "Cormorant Garamond, serif";
-    font-size: 2rem;
     font-weight: normal;
-    padding-left: 10%;
+    padding-left: 0;
     padding-top: 5%;
     color: #254c36;
 }
 .name {
-   
+ padding-top: 2%;  
 font-style: italic;
-    font-size: 1rem;
+font-weight: 100;
 display: flex;
 flex-direction: column;
 text-align: center;
 color: #254c36;
-
+}
+.name-line {
+border: 1px solid #254c36;    
+width: 80%;
+margin: 10px auto 0 auto;
 }
 
 .help-block {
-    max-width: 300px;
+    display: flex;
+   text-align: center;
     margin: 0 auto;
-   padding-left: 10%;
-   padding-top: 10%;
+  padding-top: 7%;
 }
 
 }
 .list-wrapper {
 max-width: 300px;
 overflow-x: auto;
+    margin-top: 5%;
 }
 .ul {
 list-style-type: none;
@@ -140,13 +161,14 @@ border-radius: 50%;
 }
 
 .services {
+justify-content: center;
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
 margin-top: 20px;
 text-align: center;
 align-items: center;
-padding-left: 14px;
+padding-left: 0;
 padding-top: 10%;
 }
 
@@ -155,9 +177,8 @@ padding-top: 10%;
     border: 1px solid #7fbf7f;
     border-radius: 50%;
     padding: 8%;
-   
-    width: 32vw;
-    height: 12vw;
+    width: 22vw;
+    height: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,6 +188,7 @@ padding-top: 10%;
 
 .socials {
     padding-top: 40%;
+    padding-bottom: 20px;
 }
 
     
@@ -180,9 +202,8 @@ margin-top: 61px;
 margin-right: 1%;
 margin-left: 1%;
 flex-direction: column;
-background-color: #fbe9e4;
+background-color: #fff8e1;
 min-width: 150px;
-min-height: 80vh;
 gap: 30px;
 
 
@@ -196,7 +217,6 @@ gap: 30px;
     display: flex;
     overflow: hidden;
     padding: 20px;
-    
     justify-content: center;
     align-items: center;
    
@@ -211,9 +231,8 @@ gap: 30px;
 }
 
 .about-block {
-    
 border: 1px solid #7fbf7f;
-
+background-color: #fff8e1;
 padding: 10px;
 margin-left: 20px;
 margin-right: 20px;
@@ -226,5 +245,6 @@ line-height: 1,5;
 .contacts {
     margin-bottom: 7px;
 }
+
 
 

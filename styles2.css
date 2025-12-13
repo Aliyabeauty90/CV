@@ -33,6 +33,13 @@ h3 {
  span {
 font-size: clamp(1rem, 2vw, 2rem);
 }
+p {
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+h4 {
+    font-size: clamp(1rem, 2vw, 2rem);
+}
 
 
 .thin-box {
@@ -44,7 +51,7 @@ font-size: clamp(1rem, 2vw, 2rem);
     margin-top: 2%;
     justify-content: center;
     align-items: center;
-    background-color: #fbe9e4dc;
+    background-color: #fff8e1;
     border-radius: 1rem; 
 }
 
@@ -90,7 +97,7 @@ flex: 1;
 align-items: center;
 display: flex;
 flex-direction: column;
-background-color: #fbe9e4;
+background-color: #fff8e1;
 padding: 20px 5px 5px 5px;
 margin-top: 60px;
 margin-left: 1%;
@@ -110,7 +117,8 @@ gap: 3px;
 }
 .name {
  padding-top: 2%;  
-font-style: italic;
+font-family: 'Great Vibes';
+letter-spacing: 2px;
 font-weight: 100px;
 display: flex;
 flex-direction: column;
@@ -183,15 +191,16 @@ padding-top: 10%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #f9f1ecce;
 }
 
-.socials {
-    padding-top: 40%;
-    padding-bottom: 20px;
+.contacts {
+    margin-bottom: 7px;
+}
+.button-container {
+    display: inline-block;
+    font-size: 5rem;
 }
 
-    
 .right-block {
 flex: 1;
 display: flex;
@@ -205,13 +214,7 @@ flex-direction: column;
 background-color: #fff8e1;
 min-width: 150px;
 gap: 30px;
-
-
 }
-
-
-
-   
 
 .photo-block {
     display: flex;
@@ -219,7 +222,6 @@ gap: 30px;
     padding: 20px;
     justify-content: center;
     align-items: center;
-   
 }
 .photo-block img {
     display: block;
@@ -227,7 +229,12 @@ gap: 30px;
     max-width: 100%;
     height: auto;
     border-radius: 20px;
-    
+}
+
+.phrase {
+    font-family: 'Great Vibes';
+    margin-top: -2rem;
+    margin-left: 5px;
 }
 
 .about-block {
@@ -239,12 +246,15 @@ margin-right: 20px;
 }
 .about-block p {
 line-height: 1,5;
-
 }
 
-.contacts {
-    margin-bottom: 7px;
+.socials {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding-top: 30%;
 }
+
 
 
 

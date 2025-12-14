@@ -22,6 +22,10 @@ body {
 line-height: 1,45;
 font-size: clamp(1rem, 2,2vw, 1,25rem);
 }
+ a {
+font-size: clamp(2rem, 6vw, 6rem);
+ }
+
 h1 {
     font-family: 'Shift', Arial, Helvetica, sans-serif;
 line-height: 1,4;
@@ -69,17 +73,6 @@ font-size: 18px;
 font-weight: 500;
 transition: color 0.3s;
 }
-.navbar a {
-    color: #7e93ab;
-}
-.navbar a {
-color: #7e93ab;
-}
-.navbar a {
-color: #7e93ab;
-}
-
-    
 
 .container {
    display: flex;
@@ -88,7 +81,7 @@ color: #7e93ab;
   min-height: 100vh;
   gap: 4%;
 padding: 0 3%;
-    padding-bottom: 40%;
+    padding-bottom: 10%;
 }
 
 
@@ -194,11 +187,11 @@ padding-top: 10%;
 }
 
 .contacts {
-    margin-bottom: 7px;
+  padding-bottom: 20%;
 }
 .button-container {
-    display: inline-block;
-    font-size: 5rem;
+    text-align: center;
+    padding-top: 20%;
 }
 
 .right-block {
@@ -238,8 +231,9 @@ gap: 30px;
 }
 
 .about-block {
+  font-family: 'Oleo Script';  
 border: 1px solid #7fbf7f;
-background-color: #fff8e1;
+line-height: 2;
 padding: 10px;
 margin-left: 20px;
 margin-right: 20px;
@@ -250,9 +244,17 @@ line-height: 1,5;
 
 .socials {
    display: flex;
-   flex-direction: column;
-   gap: 10px;
-   padding-top: 30%;
+   flex-direction: row;
+   gap: 4rem;
+    align-items: center;
+   padding-top: 10%;
+}
+.socials a {
+    color: inherit;
+    text-decoration: none;
+ color: #333333;
+ font-size: clamp(1rem, 2vw, 2rem);
+
 }
 
 

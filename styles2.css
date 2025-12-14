@@ -134,9 +134,8 @@ margin: 10px auto 0 auto;
 
 }
 .list-wrapper {
-    list-style: none;
-max-width: 300px;
-overflow-x: hidden;
+   max-width: 300px;
+overflow-x: auto;
     margin-top: 5%;
 }
 .ul {
@@ -258,6 +257,7 @@ line-height: 1,5;
  font-size: clamp(1rem, 2vw, 2rem);
 font-weight: normal;
 }
+
 
 
 

@@ -137,7 +137,7 @@ margin: 10px auto 0 auto;
 
 help-block ul {
 list-style-type: disc; 
-padding-left: 2rem;
+padding-left: clamp(1rem, 5%, 2rem);
 display: flex;
 flex-direction: column;
 gap: 1rem;
@@ -277,6 +277,7 @@ width: 100%;
  font-size: clamp(1rem, 2vw, 2rem);
 font-weight: normal;
 }
+
 
 
 
